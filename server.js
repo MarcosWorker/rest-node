@@ -15,10 +15,10 @@ app.get('/', function (req, res) {
 });
 // connection configurations
 var dbConn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
-    database: 'db_node'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
   
 // connect to database
